@@ -13,7 +13,7 @@ body {
 /* ----------------------------------navbar----------------------------------------- */
 
 .nav {
-  background-color: antiquewhite;
+  background-color: #ffd60a;
   display: flex;
   justify-content: space-between;
   margin-bottom: 5%;
@@ -21,7 +21,7 @@ body {
 }
 
 .logo {
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 .logo a {
@@ -32,7 +32,7 @@ body {
 }
 
 .menu {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -54,7 +54,7 @@ body {
 /* -----------------------------------------cont-one------------------------------------- */
 
 .cont-one {
-  background-color: lightcyan;
+  /* background-color: lightcyan; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,7 +80,7 @@ body {
   justify-content: center;
   align-items: center;
   flex: 1;
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
   padding: 2%;
 }
 
@@ -91,7 +91,7 @@ body {
 
 .cocktail {
   flex: 1;
-  background-color: red;
+  /* background-color: red; */
   overflow: hidden;
   transform: rotate(-6deg);
 }
@@ -99,7 +99,7 @@ body {
 /* ----------------------------------------cont-two----------------------------------- */
 
 .cont-two {
-  background-color: aquamarine;
+  background-color: #f9f2db;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,7 +119,7 @@ body {
   justify-content: center;
   align-items: center;
   flex: 1;
-  background-color: lightsalmon;
+  /* background-color: lightsalmon; */
   padding: 2%;
 }
 
@@ -142,7 +142,7 @@ body {
 
 .rep {
   flex: 1;
-  background-color: lightgrey;
+  /* background-color: lightgrey; */
   overflow: hidden;
   transform: rotate(6deg);
 }
@@ -161,7 +161,7 @@ body {
 .container {
   width: 100%;
   overflow: hidden;
-  background-color: yellow;
+  /* background-color: yellow; */
   /* padding: 2%; */
 }
 
@@ -205,13 +205,13 @@ body {
 .action {
   margin: 2.5%;
   display: flex;
-  background-color: greenyellow;
+  /* background-color: greenyellow; */
   padding: 1%;
   justify-content: space-between;
 }
 
 .call {
-  background-color: blanchedalmond;
+  /* background-color: blanchedalmond; */
   padding: 1%;
 }
 
@@ -220,15 +220,15 @@ body {
 }
 
 .btn-call {
-  background-color: red;
+  /* background-color: red; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .btn-call button {
-  background-color: #4caf50;
-  color: white;
+  background-color: #ffd60a;
+  /color: white;
   padding: 10px 20px;
   font-size: 16px;
   border: none;
@@ -239,7 +239,7 @@ body {
 }
 
 .btn-call button:hover {
-  background-color: #45a049;
+  background-color: #ffc300;
 }
 
 .btn-call button:focus {
@@ -253,7 +253,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 2%;
-  background-color: antiquewhite;
+  background-color: #ffd60a;
 }
 
 .nav-bottom p {
