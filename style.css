@@ -26,8 +26,9 @@ body {
 
 .logo a {
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding-left: 8px;
+  padding-right: 8px;
 }
 
 .menu {
@@ -43,6 +44,7 @@ body {
   cursor: pointer;
   font-size: 1.2rem;
   padding-right: 8px;
+  padding-left: 8px;
 }
 
 .menu a:hover {
@@ -82,6 +84,11 @@ body {
   padding: 2%;
 }
 
+.para-one p {
+  font-size: 1.2rem;
+  margin: 5%;
+}
+
 .cocktail {
   flex: 1;
   background-color: red;
@@ -116,6 +123,11 @@ body {
   padding: 2%;
 }
 
+.para-two p {
+  font-size: 1.2rem;
+  margin: 5%;
+}
+
 .para-three {
   display: flex;
   justify-content: center;
@@ -125,6 +137,7 @@ body {
 
 .para-three p {
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .rep {
@@ -203,7 +216,7 @@ body {
 }
 
 .call p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .btn-call {
@@ -240,6 +253,11 @@ body {
   justify-content: center;
   align-items: center;
   padding: 2%;
+  background-color: antiquewhite;
+}
+
+.nav-bottom p {
+  font-size: 1rem;
 }
 
 /* --------------------------------------RESPONSIVE DESIGN-------------------------------------- */
@@ -252,5 +270,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .para-one p,
+  .para-two p {
+    text-align: center;
+  }
+
+  .call p {
+    text-align: center;
   }
 }
