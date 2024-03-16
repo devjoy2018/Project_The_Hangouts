@@ -328,4 +328,9 @@ body {
   .rep img {
     overflow-x: hidden;
   }
+
+  .popup {
+    width: 75%;
+    height: auto;
+  }
 }
