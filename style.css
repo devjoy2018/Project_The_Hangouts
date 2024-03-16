@@ -304,6 +304,10 @@ body {
 /* --------------------------------------RESPONSIVE DESIGN-------------------------------------- */
 
 @media screen and (width <= 720px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .nav,
   .cont-one,
   .cont-two,
