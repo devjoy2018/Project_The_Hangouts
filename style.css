@@ -303,7 +303,7 @@ body {
 
 /* --------------------------------------RESPONSIVE DESIGN-------------------------------------- */
 
-@media screen and (width <= 400px) {
+@media screen and (width <= 600px) {
   body {
     overflow-x: hidden;
   }
