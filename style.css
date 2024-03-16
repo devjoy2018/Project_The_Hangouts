@@ -303,11 +303,7 @@ body {
 
 /* --------------------------------------RESPONSIVE DESIGN-------------------------------------- */
 
-@media screen and (width <= 600px) {
-  body {
-    overflow-x: hidden;
-  }
-
+@media screen and (width <= 720px) {
   .nav,
   .cont-one,
   .cont-two,
@@ -324,5 +320,12 @@ body {
 
   .call p {
     text-align: center;
+  }
+
+  .cocktail img {
+    overflow-x: hidden;
+  }
+  .rep img {
+    overflow-x: hidden;
   }
 }
