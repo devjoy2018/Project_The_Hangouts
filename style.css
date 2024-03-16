@@ -228,7 +228,6 @@ body {
 
 .btn-call button {
   background-color: #ffd60a;
-  /color: white;
   padding: 10px 20px;
   font-size: 16px;
   border: none;
@@ -244,6 +243,39 @@ body {
 
 .btn-call button:focus {
   outline: none;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff8d5;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 500px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  margin: 2%;
+  /* to popup on top  */
+}
+
+.popup h2 {
+  margin: 2%;
+}
+
+.popup p {
+  margin: 2%;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  margin: 2%;
 }
 
 /* -----------------------------------------nav-bottom------------------------------------  */
